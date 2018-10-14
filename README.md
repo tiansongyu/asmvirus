@@ -1,5 +1,6 @@
 # asmvirus
 a usual virus in win10 platform(also in winNT)
+masm32编译链接环境
 
 编译链接器下载地址：http://www.masm32.com/
 
