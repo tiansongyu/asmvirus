@@ -1,6 +1,8 @@
 # asmvirus
 a usual virus in win10 platform(also in winNT)
 
+编译链接器下载地址：http://www.masm32.com/
+
 病毒实现功能： 
  1. 病毒源程序是一个exe文件 ，被执行后 会弹出一个对话框
  2. 当病毒被执行后，会查找当前目录下所有exe文件，并将本身的功能插入到exe文件中，原exe程序功能不受影响。
