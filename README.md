@@ -9,3 +9,4 @@ a usual virus in win10 platform(also in winNT)
 
 本程序在win10环境下能感染大部分32位exe程序， 如果要移植到 win7系统下需要修改 其中一个api函数的名字， （后缀好像由w改为a）
 
+本程序暂时的病毒发作状况为弹出一个对话框， 如果通过合适的修改，可以在本人标记的位置中添加任何shellcode，并实现自己的病毒作用功能。
