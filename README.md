@@ -14,8 +14,12 @@ masm32编译链接环境
 
 本程序暂时的病毒发作状况为弹出一个对话框， 如果通过合适的修改，可以在本人标记的位置中添加任何shellcode，并实现自己的病毒作用功能。#
 # 编译环境
-;在win10环境下 用masm32编译器链接器
-;ml -c -coff virus.asm
-;生成virus.obj文件
-;link -subsystem:console virus.obj
-;生成virus.exe即为病毒母体程序
+在win10环境下 用masm32编译器链接器
+
+ml -c -coff virus.asm
+
+生成virus.obj文件
+
+link -subsystem:console virus.obj
+
+生成virus.exe即为病毒母体程序
