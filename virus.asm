@@ -6,6 +6,7 @@ option casemap : none ; 区分大小写
 ;生成virus.obj文件
 ;link -subsystem:console virus.obj
 ;生成virus.exe即为病毒母体程序
+;win7环境需要改动LoadLibrary函数名称 A -> W
 include windows.inc
 include user32.inc
 include kernel32.inc
