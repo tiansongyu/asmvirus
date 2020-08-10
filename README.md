@@ -22,4 +22,4 @@ ml -c -coff virus.asm
 
 link -subsystem:console virus.obj
 
-生成virus.exe即为病毒母体程序
+生成virus.exe即 为病毒母体程序
